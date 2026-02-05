@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://stivik-ai.github.io/PiekarzLukasz/sitemap.xml
+Sitemap: https://stivik-ai.github.io/LukaszPiekarz/sitemap.xml
