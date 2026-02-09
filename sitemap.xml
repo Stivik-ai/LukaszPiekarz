@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://stivik-ai.github.io/LukaszPiekarz/</loc>
+<<<<<<< HEAD
         <lastmod>2026-02-09</lastmod>
+=======
+        <lastmod>2026-02-07</lastmod>
+>>>>>>> fd3f599df6022730056618a4964bb80ca2f3ad1d
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://stivik-ai.github.io/LukaszPiekarz/index.html</loc>
+<<<<<<< HEAD
         <lastmod>2026-02-09</lastmod>
+=======
+        <lastmod>2026-02-07</lastmod>
+>>>>>>> fd3f599df6022730056618a4964bb80ca2f3ad1d
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://stivik-ai.github.io/LukaszPiekarz/galeria.html</loc>
+<<<<<<< HEAD
         <lastmod>2026-02-09</lastmod>
+=======
+        <lastmod>2026-02-07</lastmod>
+>>>>>>> fd3f599df6022730056618a4964bb80ca2f3ad1d
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
