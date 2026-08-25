@@ -345,16 +345,18 @@
         <main id="tresc">
             <!-- ============================================= HERO -->
             <section class="hero">
-                <div class="container">
-                    <div class="hero__grid">
-                        <div>
-                            <span class="eyebrow"
-                                >Lichwin · Ołpiny · Małopolska</span
-                            >
-                            <h1>
-                                Roboty ziemne koparką
-                                <em>w okolicy Lichwina i Ołpin</em>
-                            </h1>
+                <div class="container hero__head">
+                    <div class="hero__copy">
+                        <p class="hero__kicker">
+                            Lichwin · Ołpiny · Małopolska
+                        </p>
+
+                        <h1 class="hero__title">
+                            Roboty ziemne koparką
+                            <em>w okolicy Lichwina i Ołpin</em>
+                        </h1>
+
+                        <div class="hero__aside">
                             <p class="hero__lead">
                                 Wykopy pod fundamenty, przyłącza wod-kan,
                                 szamba, oczyszczalnie i drenaże. Przyjeżdżam,
@@ -376,22 +378,24 @@
                                 </a>
                             </div>
                         </div>
-
-                        <figure class="hero__figure">
-                            <img
-                                src="zdj/16.jpg"
-                                alt="Mini koparka pracująca w głębokim wykopie na pagórkowatej działce w okolicy Lichwina"
-                                width="1200"
-                                height="1500"
-                                fetchpriority="high"
-                                decoding="async"
-                            />
-                            <figcaption>
-                                Wykop pod budynek — okolice Lichwina
-                            </figcaption>
-                        </figure>
                     </div>
 
+                    <figure class="hero__band">
+                        <img
+                            src="zdj/16.jpg"
+                            alt="Mini koparka pracująca w głębokim wykopie na pagórkowatej działce w okolicy Lichwina"
+                            fetchpriority="high"
+                            decoding="async"
+                        />
+                        <figcaption>
+                            <span class="container"
+                                >Wykop pod budynek — okolice Lichwina</span
+                            >
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="container">
                     <dl class="factbar">
                         <div class="factbar__item">
                             <dt>Zasięg</dt>
@@ -533,7 +537,7 @@
             </section>
 
             <!-- ============================================= PROCES -->
-            <section class="section section--ink" id="jak-pracuje">
+            <section class="section" id="jak-pracuje">
                 <div class="container">
                     <div class="section-head reveal">
                         <span class="eyebrow">Przebieg zlecenia</span>
@@ -649,52 +653,6 @@
                     </div>
                 </div>
             </section>
-
-            <!-- ============================================= PASEK MIEJSCOWOŚCI -->
-            <div class="marquee" aria-hidden="true">
-                <div class="marquee__track">
-                    <div class="marquee__group">
-                        <span>Lichwin</span>
-                        <span>Ołpiny</span>
-                        <span>Tuchów</span>
-                        <span>Gromnik</span>
-                        <span>Ryglice</span>
-                        <span>Szerzyny</span>
-                        <span>Rzepiennik</span>
-                        <span>Pleśna</span>
-                        <span>Ciężkowice</span>
-                        <span>Bobowa</span>
-                        <span>Biecz</span>
-                        <span>Zakliczyn</span>
-                        <span>Wojnicz</span>
-                        <span>Tarnów</span>
-                        <span>Gorlice</span>
-                        <span>Pilzno</span>
-                        <span>Brzostek</span>
-                        <span>Jasło</span>
-                    </div>
-                    <div class="marquee__group">
-                        <span>Lichwin</span>
-                        <span>Ołpiny</span>
-                        <span>Tuchów</span>
-                        <span>Gromnik</span>
-                        <span>Ryglice</span>
-                        <span>Szerzyny</span>
-                        <span>Rzepiennik</span>
-                        <span>Pleśna</span>
-                        <span>Ciężkowice</span>
-                        <span>Bobowa</span>
-                        <span>Biecz</span>
-                        <span>Zakliczyn</span>
-                        <span>Wojnicz</span>
-                        <span>Tarnów</span>
-                        <span>Gorlice</span>
-                        <span>Pilzno</span>
-                        <span>Brzostek</span>
-                        <span>Jasło</span>
-                    </div>
-                </div>
-            </div>
 
             <!-- ============================================= OBSZAR -->
             <section class="section" id="obszar">
@@ -899,7 +857,6 @@
                         </div>
 
                         <div class="contact-main">
-                            <span class="eyebrow">Formularz</span>
                             <h3 class="h-md">Opisz, co trzeba zrobić</h3>
                             <p class="mt-1 muted">
                                 Im więcej szczegółów — zakres, miejscowość,
@@ -999,7 +956,10 @@
                                 <p class="form-note">
                                     Dane z formularza trafiają wyłącznie na mój
                                     adres e-mail i służą tylko do odpowiedzi na
-                                    zapytanie.
+                                    zapytanie. Szczegóły w
+                                    <a href="polityka-prywatnosci.html"
+                                        >polityce prywatności</a
+                                    >.
                                 </p>
                             </form>
                         </div>
@@ -1042,6 +1002,11 @@
                             </li>
                             <li><a href="#obszar">Obszar działania</a></li>
                             <li><a href="#pytania">Pytania i odpowiedzi</a></li>
+                            <li>
+                                <a href="polityka-prywatnosci.html"
+                                    >Polityka prywatności</a
+                                >
+                            </li>
                         </ul>
                     </div>
 
